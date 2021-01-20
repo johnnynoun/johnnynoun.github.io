@@ -10250,7 +10250,7 @@ body {
 .projects-section {
   padding: 10rem 0;
 }
-.projects-section .featured-text {
+.about-me-section .featured-text {
   padding: 2rem;
 }
 @media (min-width: 992px) {
@@ -10343,6 +10343,16 @@ a.text-color-red, a.text-color-red:after, a.text-color-red:visited {
   height: 3%;
 }
 
+.skill-img{
+  width: 70px;
+  height: 70px;
+}
+
+.sampleimg{
+  width: 90%;
+  height: 90%;
+}
+
 /* Side bar design */
 ::-webkit-scrollbar {
     width: 10px;
@@ -10357,4 +10367,70 @@ img {
     -moz-user-drag: none;
     -o-user-drag: none;
     user-select: none;
+}
+
+.skill-sec{
+  background-color: #f8f9fa;
+  padding-top: 10rem;
+}
+
+
+.card-block .btn-outline-primary {
+  width: 100%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.card {
+  margin: 20px 0;
+}
+
+/* Flip Cards CSS */
+.card-container {
+  perspective: 700px;
+}
+.card-flip {
+  position: relative;
+  width: 100%;
+  transform-style: preserve-3d;
+  height: auto;
+  transition: all 0.5s ease-out;
+  background: white;
+  border: none;
+}
+
+.card-flip div {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+.card-flip .front {
+  position: relative;
+  z-index: 1;
+}
+
+.card-flip .back {
+  position: relative;
+  z-index: 0;
+  transform: rotateY(-180deg);
+}
+
+.card-container:hover .card-flip {
+  transform: rotateY(180deg);
+}
+
+.back p{
+  text-align: left;
+
+}
+
+#centerp{
+  color: red;
+  text-align: center;
 }
