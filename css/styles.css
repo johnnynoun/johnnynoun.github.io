@@ -10342,6 +10342,10 @@ a.text-color-red, a.text-color-red:after, a.text-color-red:visited {
   width: 4%;
   height: 3%;
 }
+.homelogo{
+  width: 12%;
+  height: 12%;
+}
 
 .skill-img{
   width: 70px;
