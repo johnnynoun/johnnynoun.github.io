@@ -10455,3 +10455,7 @@ img {
     transform: rotate(359deg);
   }
 }
+.center{
+  margin-right: auto;
+  margin-left: auto;
+}
