@@ -3947,7 +3947,7 @@ input[type=button].btn-block {
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
 }
-.nav-link.disabled {
+.nav-link .disabled {
   color: #6c757d;
   pointer-events: none;
   cursor: default;
@@ -10197,10 +10197,10 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/background2.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/sunset11.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
 }
 .masthead h1 {
@@ -10276,11 +10276,11 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/sunset11.png");
+  background: url("../assets/img/background2.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+  background-attachment: fixed;
+  background-size: 100vw 100vh;
 }
 .signup-section .form-inline input {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
